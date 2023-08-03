@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Helsafe</title>
+		<title>Pixhawk_first_drone</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style4">
+					<header id="header" class="alt style3">
 						<a href="index.html" class="logo"><strong>Projects</strong> <span>by Chirag Kotian</span></a>
 						
 					</header>
@@ -28,16 +28,16 @@
 
 				<!-- Banner -->
 				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style4">
+					<section id="banner" class="style3">
 						<div class="inner">
 							<span class="image">
 								<img src="images/pic07.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>Robotic arm competition</h1>
+								<h1>First Pixhawk Drone</h1>
 							</header>
 							<div class="content">
-								<p>A robotics hackathon involving braccio robot arm and open CV.</p>
+								<p>This project was the first time we were able to use Pixhawk as FCU for our quadcopter.</p>
 							</div>
 						</div>
 					</section>
@@ -50,30 +50,20 @@
                         <section id="one" class="spotlights">
                             <section>
                                 <a href="" class="image">
-                                    <img src="images/roboticarm.gif" alt=""  data-position="center center" />
+                                    <img src="images/firstpixhwak.png" alt="" data-position="center center" />
                                 </a>
                                 <div class="content">
                                     <div class="inner">
                                         <header class="major">
                                             <h3>Introduction</h3>
                                         </header>
-                                        <p>
-                                            The problem statement for this competition was to write code which capable of controlling a 
-                                            TinkerKit Braccio robotics arm to pick an object and keep it at designated area using cameras. This entire
-                                        thing had to be implemented in 12hrs.</br></br>
-                                            First we made a arduino code and a python code such that the python code running on user's PC
-                                            connected to arduino of the robotic arm via serial port and sent user commands in form of strings having angle to which each
-                                            servo of the 6 servo has to move to, arduino decoded this and executed it.</br></br>
-                                            Next we stuck aruco markers on robotic arm, corners of workspace and robotic arm, which we used to give control inputs
-                                            to the robotics arms.</br></br>
-                                            By this time, our time for working had finished and had to stop. The next step involved trajectory planning
-                                            using inverse kinematics.
-
+                                        <p>This project was first time we used pixhawk as FCU for our drone. Not only that, but we made a PPM encoder using Arduino as we had only PWM transmitter and receiver 
+                                            and we also made a make-shift test bench to check the stability of drone.
 
                                         </p>
-                                        <!-- <ul class="actions">
-                                            <li><a href="https://github.com/ChiragKotian/SRIP-2023-Surveying-mapping-and-vegetation-analysis-using-drones/" class="button">Learn more about this project in my Github Repository</a></li>
-                                        </ul> -->
+                                        <ul class="actions">
+                                            <li><a href="https://github.com/ChiragKotian/Pixhawk_first_drone" class="button">Learn more about this project in my Github Repository</a></li>
+                                        </ul> 
                                     </div>
                                 </div>
                             </section>
